@@ -1,8 +1,8 @@
 body{
-    font-family: 'Imprima';
+    font-family: 'Noto Sans SC';
     font-size: 12px;
     color: #e20233d8;
-    background: #f7f7f7;
+    background: whitesmoke;
     margin: 0px;
 }
 
@@ -36,6 +36,7 @@ body{
 #user {
     float: left;
     color: white;
+    font-size: medium;
     
 }
 
@@ -44,6 +45,7 @@ a {
     margin-top: 5px;
     padding-right: 5px;
     display: inline-block;
+    font-size: medium;
     text-decoration: none;
 }
 
@@ -125,5 +127,82 @@ img {
 }
 
 .element-form span input[type="submit"]:hover{
-    background: #99001ade;
+    background: #ce213ede;
+}
+
+#menu-profile a{
+    color: white;
+    font-size: medium;
+    
+    margin-bottom: 10px;
+}
+
+#bg-page-profile{
+    overflow: hidden;
+}
+
+#menu-profile{
+    float: left;
+    width: 245px;
+    background: #e20233d8;
+}
+
+#menu-profile ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+}
+
+#menu-profile ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+#menu-profile ul li a:hover,
+#menu-profile ul li a.active{
+    background: #ce213ede;
+
+}
+
+#profile-content{
+    width: 835px;
+    padding: 10px;
+    background: white;
+    float: left;
+}
+a.tombol-action {
+    color: white;
+    font-size: x-small;
+    text-decoration: none;
+}
+
+div#frame-tambah {
+    width: 97px;
+    padding: 1px 2px;
+    height: auto;
+    float: right;
+    background: #e20233d8;
+    padding-bottom: 7px;
+    border-radius: 5px;
+
+}
+
+td a{
+    color: #e20233d8;
+    font-size: small;
+}
+
+.table{
+    width: 420px;
+    margin-top: 68px;
+    float: left;
+    margin-left: 20%;
+
+}
+
+#user a,
+#user a:focus {
+    color: white;
+    text-decoration: none;
 }
